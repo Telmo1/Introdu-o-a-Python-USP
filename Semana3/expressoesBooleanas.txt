@@ -1,0 +1,22 @@
+# Temos então as expressões boolenas em python
+
+# São comparações que sempre retornaram true ou false
+
+x = 5;
+b = 6;
+x > b;      #false
+b > x       #true
+
+# OPERADORES BOOLEANOS AND, OR, NOT
+
+#AND só é verdadeiro se as duas condições forem verdades.
+#OR só é falso se as duas condições forem falsas.
+#NOT nega uma condição verdadeira e transforma em falsa, ou vice versa.
+
+                                        #EXEMPLOS#
+
+x > 0 AND x ** 2 > 100    ---- Retorna FALSE x é maior que zero mas x elevado ao cubo não é maior que 100.
+x > 0 OR x == 100         ---- Retorna TRUE pois x é maior que zero, mesmo sendo diferente de 100.
+NOT x > 0                 ---- Retorna FALSE pois nega uma afirmativa verdadeira onde o x é maior que zero.
+
+
